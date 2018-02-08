@@ -1,0 +1,3 @@
+CGA 8 Tage 7 Vorlesungen:	 		1 Vorlesung pro Tag		1
+WBA 6 Tage 46 Videos, 40 videos, git 25:	7 html/css, 7 javascript, 4 git	7,7,4(2)
+BWL 9 Tage 239 seiten 6 Übungen:		27 Seiten 1 Übung		27,0
