@@ -1,20 +1,41 @@
 <html>
 <head>
 <title>Javascript Practise</title>
+
+<script type= "text/javascript">
+
+  function person(name, age) {
+    this.name= name;
+    this.age= age;
+    this.yearsUntilRetire= yearsLeft;
+
+  }
+
+  functiom yearsLeft() {
+    var numYears = 65 - this.age;
+    return numYears;
+  }
+
+  var natalie = new person ("Natalie Portman", 35);
+  var bob = new person ("Bob Tipping", 20);
+
+
+</script>
+
 </head>
 <body>
 
 
-<script type= "text/javascript">
+  <script type= "text/javascript">
+  document.write("hello");
+  <br>
+  document.write(natalie.yearsUntilRetire());
+  <br>
+  document.write(natalie.yearsUntilRetire());
 
-var x=0;
+  </script>
 
-  do {
-    document.write(x+"hello! <br>");
-    x++;
-  }while(x<=20);
 
-</script>
 
 </body>
 </html>
